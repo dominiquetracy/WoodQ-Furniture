@@ -1,0 +1,313 @@
+/* rows & columns **********************/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  background-color: #C8C8C8 !important;
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+.card {
+  width: 500px;
+  margin: 50px auto 200px auto;
+}
+
+.about-product img {
+  width: 600px;
+}
+
+
+/* heading  */
+.heading {
+  font-size: 25px;
+}
+
+/* breadcrumb    */
+.breadcrumb {
+  margin-top: 25px;
+}
+
+.breadcrumb li {
+  font-size: 15px;
+}
+
+.breadcrumb-item.active {
+  text-decoration: underline;
+
+}
+
+/* rating  */
+.fa-star , .rating-number {
+  font-size: 13px;
+}
+
+
+/* prices */
+.price-member {
+  font-size: 30px;
+}
+
+.fa-info-circle {
+  font-size: 10px;
+}
+
+.price-reg {
+  font-size: 15px;
+}
+
+
+/* protection */
+.protection-red {
+  color: crimson;
+  font-size: 15px;
+}
+
+.protection-reg {
+  font-size: 12px;
+}
+
+
+/* button    */
+.button {
+  background-color: rgb(51, 51, 51) ;
+  opacity: 1;
+  transition: 0.3s;
+  padding: 7px 90px;
+  color: snow;
+}
+
+.button:hover {
+  opacity: 0.6;
+}
+
+.form-select {
+  width: 15% !important;
+  padding: 0.1rem 0.1rem !important;
+  font-size: 15px !important;
+}
+
+.klarna {
+  font-size: 11px;
+}
+
+.klarna a {
+  text-decoration: underline !important;
+}
+
+
+/* modal      */
+#myModalLabel {
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.register {
+  margin: 20px 0 30px 0;
+}
+
+.modal-body p {
+  font-family: 'Roboto', sans-serif;
+}
+
+.furniture-name {
+  margin: 50px auto 5px 5px;
+  font-weight: bolder;
+}
+
+input {
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: black;
+  width: 100%;
+}
+input:focus {
+  border-color: green;
+}
+
+.modal-submit-button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.form-check p , .form-check-input {
+  margin-top: 30px;
+}
+
+::placeholder {
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.conclusion {
+  margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*** FOOTER ************************************************/
+
+.footer {
+  width: 100%;
+  position: relative;
+  height: auto;
+  background-color: #070617;
+  color: #B0B0B0;
+  padding: 30px auto 60px auto !important;
+}
+.footer .col-md-3 {
+  width: 300px;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.footer .col-md-3 h1 {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: 13px;
+  line-height: 17px;
+  padding: 20px 0px 5px 0px;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.250em;
+}
+.footer .col-md-3 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.footer .col-md-3 ul li {
+  font-size: 11px;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 5px 0px 5px 0px;
+  cursor: pointer;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+}
+.social ul li {
+  display: inline-block;
+  padding-right: 5px !important;
+}
+
+.footer .col-md-3 ul li:hover {
+  color: #ffffff;
+  transition: .1s;
+  -webkit-transition: .1s;
+  -moz-transition: .1s;
+}
+.clearfix {
+  clear: both;
+}
+
+.footer-heading h2 {
+  text-align: center;
+}
+
+.footer-container {
+  padding: 30px 0;
+}
+
+.footer-sectionals {
+  margin-top: 600px;
+}
+
+
+/* footer specifically for product deta */
+.footer-details {
+  margin: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 770px) {
+  .about-product img {
+    width: 100%;
+  }
+}
+
+
+
+
+
+/* FOOTER      */
+@media only screen and (min-width: 1280px) {
+  .contain {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 1139px) {
+  .contain .social {
+    width: 1000px;
+    display: block;
+  }
+  .social h1 {
+    margin: 0px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .footer .col-md-3 {
+    width: 33%;
+  }
+  .footer .col-md-3 h1 {
+    font-size: 14px;
+  }
+  .footer .col-md-3 ul li {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 500px) {
+    .footer .col-md-3 {
+      width: 50%;
+    }
+    .footer .col-md-3 h1 {
+      font-size: 14px;
+    }
+    .footer .col-md-3 ul li {
+      font-size: 13px;
+    }
+}
+@media only screen and (max-width: 340px) {
+  .footer .col-md-3 {
+    width: 100%;
+  }
+}
